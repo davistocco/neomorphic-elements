@@ -39,10 +39,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.wrapper_1 {
-    margin-bottom: 40px;
-}
-
 .wrapper_2 {
     width: 355px;
 }
@@ -226,4 +222,44 @@ body {
 .checkbox-neo:checked::before {
     background: #0AFFEF;
     left: 41px;
+}
+
+.light-switch {
+    border-radius: 12px;
+    box-shadow: var(--elevation);
+    width: 51px;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.light-switch .divider {
+    width: 50%;
+    border: 1px solid #0C1116;
+    opacity: .22;
+}
+
+.light-switch input[type='radio'] {
+    -webkit-appearance: none;
+}
+
+.light-switch label {
+    font-size: 8px;
+    text-transform: uppercase;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.light-switch input:checked+label {
+    transition: color .3s;
+    color: #0AFFEF;
+}
+
+.light-switch img {
+    width: 18px;
+    opacity: .33;
 }
