@@ -320,6 +320,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     top: 0;
+    cursor: pointer;
 }
 
 .inner .buttons .forward {
@@ -331,6 +332,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     top: 0;
+    cursor: pointer;
 }
 
 .inner .buttons .play {
@@ -342,4 +344,21 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     top: 0;
+    cursor: pointer;
+}
+
+.extras {
+    width: 51px;
+    height: 122px;
+    box-shadow: var(--depression);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.extras img {
+    display: block;
+    cursor: pointer;
 }
