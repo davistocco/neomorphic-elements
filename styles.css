@@ -257,6 +257,7 @@ body {
     background: none;
     cursor: pointer;
     padding: 15px;
+    color: rgba(255, 255, 255, .33);
 }
 
 .light-switch input:checked+label {
@@ -361,4 +362,33 @@ body {
 .extras img {
     display: block;
     cursor: pointer;
+}
+
+.stats {
+    width: 253px;
+    height: 124px;
+    border-radius: 8px;
+    box-shadow: var(--elevation);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.stats .value {
+    font-size: 33px;
+    color: #0AFFEF;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.stats .value img {
+    margin-right: 5px;
+}
+
+.stats .title {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 300;
 }
